@@ -23,9 +23,11 @@ function startColorChange() {
 }
 
 function stopColorChange() {
+    clearInterval(intervalId);
     refs.startBtn.disabled = false;
     refs.stopBtn.disabled = true;
-    clearInterval(intervalId);
+    console.log(9);
+        ;
 }
 
 
