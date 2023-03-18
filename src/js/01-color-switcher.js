@@ -10,7 +10,7 @@ function getRandomHexColor() {
 refs.startBtn.addEventListener('click', startColorChange);
 refs.stopBtn.addEventListener('click', stopColorChange);
 refs.stopBtn.disabled = true;
-
+intervalId = null;
 
 function startColorChange() {
    
